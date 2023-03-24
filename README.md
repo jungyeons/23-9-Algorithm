@@ -41,11 +41,11 @@
 - 주차 미제출과 모임 결석을 3회 이상할 경우 더 이상의 스터디 참여가 불가능합니다.
 - 주차 지각 제출과 모임 지각은 2회 시 미제출, 결석 1회로 생각합니다.
 - 문제 풀이 코드 파일의 이름은 다음 형식을 따라야 합니다.
-      - `platform`-`problem_number`-`solver_name`
-      - `platform`은 3가지(백준, 프로그래머스, 리트코드)이며 아래와 같이 각 플랫폼을 약어로 표기합니다.
-          - [백준 온라인 저지](https://www.acmicpc.net/): bj
-          - [프로그래머스](https://programmers.co.kr/): pgm
-          - [leetcode](https://leetcode.com/): lc
-      - `problem_number`는 문제의 번호로 백준과 프로그래머스는 URL을 통해서, 리트코드는 문제의 설명에서 확인할 수 있습니다.
-      - `solver_name`은 자신의 영어이름 혹은 이니셜을 작성합니다.
-      - ex) 1주차 고정 문제를 풀었을 경우 `pgm-42577-dojinyou.kt`
+  - `platform`-`problem_number`-`solver_name`
+    - `platform`은 3가지(백준, 프로그래머스, 리트코드)이며 아래와 같이 각 플랫폼을 약어로 표기합니다.
+      - [백준 온라인 저지](https://www.acmicpc.net/): bj
+      - [프로그래머스](https://programmers.co.kr/): pgm
+      - [leetcode](https://leetcode.com/): lc
+    - `problem_number`는 문제의 번호로 백준과 프로그래머스는 URL을 통해서, 리트코드는 문제의 설명에서 확인할 수 있습니다.
+    - `solver_name`은 자신의 영어이름 혹은 이니셜을 작성합니다.
+    - ex) 1주차 고정 문제를 풀었을 경우 `pgm-42577-dojinyou.kt`
