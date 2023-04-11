@@ -17,3 +17,4 @@ jobs:
           MERGE_LABELS: "" # 모든 PR을 병합합니다.
           MERGE_METHOD: "squash"
           LOG: "DEBUG"
+          UPDATE_LABELS: ""
