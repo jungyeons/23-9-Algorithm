@@ -1,8 +1,7 @@
 name: PR auto merge
 on:
   schedule:
-    - cron: '00 13 * * *' # 매주 월요일 0시(UTC) -> 매주 월요일 오전 9시(KST) 9시간 시차존재
-    # - cron: '0 0 * * 1' # 매주 월요일 0시(UTC) -> 매주 월요일 오전 9시(KST) 9시간 시차존재
+    - cron: '00 13 * * *'
     
   workflow_dispatch:  
     
@@ -11,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: automerge
-        uses: "pascalgn/automerge-action@v0.15.0"
+        uses: "pascalgn/automerge-action@v0.15.6"
         env:
           GITHUB_TOKEN: "${{ secrets.GH_TOKEN }}"
-          MERGE_LABELS: "" # 모든 PR을 병합합니다.
+          MERGE_LABELS: ""
           MERGE_METHOD: "squash"
           LOG: "DEBUG"
           UPDATE_LABELS: ""
